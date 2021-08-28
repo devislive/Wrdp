@@ -1,0 +1,28 @@
+{
+  "name": "laxcorp/rdp-bundle",
+  "description": "Generate Windows Remote Desktop file.rdp files.rdp.zip",
+  "type": "symfony-bundle",
+  "homepage": "https://github.com/LaxCorp/RdpBundle",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "keywords": [
+    "rdp file generator",
+    "Windows Remote Desktop"
+  ],
+  "authors": [
+    {
+      "name": "Lax Corp",
+      "email": "LaxCorp@mail.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "LaxCorp\\RdpBundle\\": ""
+    }
+  }
+}
